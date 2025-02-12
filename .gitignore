@@ -1,0 +1,32 @@
+# macOS system files
+.DS_Store
+Thumbs.db
+
+# Xcode project files
+*.xcuserstate
+*.xcworkspace
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/xcshareddata/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/
+
+# Derived Data (build cache)
+DerivedData/
+
+# OpenAI API Key (важно, чтобы не пушить ключ)
+*.env
+apikey.txt
+
+# Logs
+*.log
+
